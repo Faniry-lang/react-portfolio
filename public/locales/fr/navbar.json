@@ -1,0 +1,13 @@
+{
+  "brand": {
+    "role": "Développeur logiciel"
+  },
+  "links": {
+    "hero": "Accueil",
+    "about": "À propos",
+    "projects": "Mes projets",
+    "contacts": "Contacts"
+  },
+  "workWithMe": "Travailler avec moi",
+  "toggleAria": "Changer de langue"
+}

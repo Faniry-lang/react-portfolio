@@ -1,0 +1,87 @@
+{
+  "controls": {
+    "previous": "Previous project",
+    "next": "Next project"
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Da Vinci Assist",
+      "category": "Personal project",
+      "period": "April 2026",
+      "description": "Art association management with a full dashboard for handling members, registrations, and email announcements.",
+      "technologies": ["Next.js", "Tailwind CSS", "Spring Boot", "TinyMCE"],
+      "highlights": [
+        "Full dashboard for managing around one hundred members.",
+        "Secure processing of Excel files from Google Forms.",
+        "Creation and sending of email announcements with HTML generation."
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+      "accentFrom": "rgba(34, 197, 94, 0.78)",
+      "accentTo": "rgba(168, 85, 247, 0.82)"
+    },
+    {
+      "id": 2,
+      "title": "Local School Management",
+      "category": "Professional project",
+      "period": "August 2025",
+      "description": "User interface for school administration with attendance, schedules, and salary tracking.",
+      "technologies": ["React.js", "Tailwind CSS", "Spring Boot"],
+      "highlights": [
+        "Administrative management interface for a local school.",
+        "Attendance, check-in, and timetable module.",
+        "Employee salary management."
+      ],
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80",
+      "accentFrom": "rgba(74, 222, 128, 0.72)",
+      "accentTo": "rgba(59, 130, 246, 0.78)"
+    },
+    {
+      "id": 3,
+      "title": "Intelligent Scheduling System",
+      "category": "Professional project",
+      "period": "July 2025",
+      "description": "Scheduling algorithm designed to generate and manage class timetables efficiently.",
+      "technologies": ["Java", "OptaPlanner"],
+      "highlights": [
+        "Design of a timetable management algorithm.",
+        "Smart class scheduling using OptaPlanner."
+      ],
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
+      "accentFrom": "rgba(168, 85, 247, 0.75)",
+      "accentTo": "rgba(34, 197, 94, 0.78)"
+    },
+    {
+      "id": 4,
+      "title": "Haiko App",
+      "category": "Hackathon project",
+      "period": "November 2025",
+      "description": "Platform to promote Malagasy culture with a Next.js interface, Django backend, and LLM-based voice generation.",
+      "technologies": ["Next.js", "Tailwind CSS", "GSAP", "Hugging Face", "Django"],
+      "highlights": [
+        "Complete interface built with Next.js.",
+        "Django backend for managing cultural data.",
+        "Malagasy voice generation powered by a Hugging Face model."
+      ],
+      "image": "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?auto=format&fit=crop&w=1600&q=80",
+      "accentFrom": "rgba(245, 158, 11, 0.72)",
+      "accentTo": "rgba(168, 85, 247, 0.8)"
+    },
+    {
+      "id": 5,
+      "title": "Food Reservation App",
+      "category": "Academic project",
+      "period": "July 2024",
+      "description": "Food reservation and delivery system with a React front office and a Nest.js / Node.js back office.",
+      "technologies": ["React.js", "Nest.js", "Tailwind CSS", "Open Street Map"],
+      "highlights": [
+        "Front office for search, booking, and delivery tracking.",
+        "Back office for menus, ingredients, and costs.",
+        "Optimized route algorithm for delivery drivers."
+      ],
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80",
+      "accentFrom": "rgba(251, 191, 36, 0.75)",
+      "accentTo": "rgba(34, 197, 94, 0.72)"
+    }
+  ]
+}

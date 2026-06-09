@@ -1,0 +1,16 @@
+{
+  "name": {
+    "first": "Faniry",
+    "last": "Ranaivoson"
+  },
+  "title": {
+    "line1": "Développeur",
+    "line2": "Logiciel"
+  },
+  "description": "Je crée des applications et des systèmes (qui fonctionnent).",
+  "cta": {
+    "projects": "Voir mes projets",
+    "contact": "Collaborer"
+  },
+  "skillsTitle": "Technologies que j'utilise"
+}

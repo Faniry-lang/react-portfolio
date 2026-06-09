@@ -1,0 +1,25 @@
+{
+  "heading": "Let's stay in touch.",
+  "social": {
+    "title": "Social media",
+    "github": "Portfolio / code",
+    "linkedin": "Professional network",
+    "facebook": "News and updates"
+  },
+  "email": {
+    "title": "Email",
+    "subtitle": "Available for internships, jobs, or collaborations"
+  },
+  "phone": {
+    "title": "Phone",
+    "subtitle": "WhatsApp available"
+  },
+  "location": {
+    "title": "Location",
+    "subtitle": "Open to remote depending on the project"
+  },
+  "credits": {
+    "name": "Faniry Ranaivoson",
+    "role": "Software engineer — 2026"
+  }
+}

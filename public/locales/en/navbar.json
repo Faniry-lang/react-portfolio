@@ -1,0 +1,13 @@
+{
+  "brand": {
+    "role": "Software engineer"
+  },
+  "links": {
+    "hero": "Hero",
+    "about": "About me",
+    "projects": "My projects",
+    "contacts": "Contacts"
+  },
+  "workWithMe": "Work with me",
+  "toggleAria": "Switch language"
+}

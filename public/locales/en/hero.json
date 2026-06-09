@@ -1,0 +1,16 @@
+{
+  "name": {
+    "first": "Faniry",
+    "last": "Ranaivoson"
+  },
+  "title": {
+    "line1": "Software",
+    "line2": "Engineer"
+  },
+  "description": "I build apps and systems (that work).",
+  "cta": {
+    "projects": "View my projects",
+    "contact": "Work with me"
+  },
+    "skillsTitle": "Stacks I use"
+}

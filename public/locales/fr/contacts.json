@@ -1,0 +1,25 @@
+{
+  "heading": "Restons en contact.",
+  "social": {
+    "title": "Réseaux sociaux",
+    "github": "Portfolio / code",
+    "linkedin": "Réseau professionnel",
+    "facebook": "Actus et veille"
+  },
+  "email": {
+    "title": "Mail",
+    "subtitle": "Disponible pour stage, emploi ou collaboration"
+  },
+  "phone": {
+    "title": "Téléphone",
+    "subtitle": "WhatsApp disponible"
+  },
+  "location": {
+    "title": "Localisation",
+    "subtitle": "Ouvert au remote selon le projet"
+  },
+  "credits": {
+    "name": "Faniry Ranaivoson",
+    "role": "Développeur logiciel — 2026"
+  }
+}
