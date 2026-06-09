@@ -33,7 +33,7 @@ export function AboutMe() {
 
                 <div className="relative min-h-112 flex-1 overflow-hidden border border-slate-900/10 bg-slate-900 lg:max-w-xl">
                     <img
-                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1400&q=80"
+                        src="/assets/profil.png"
                         alt={t('portraitAlt')}
                         className="absolute inset-0 h-full w-full object-cover"
                     />

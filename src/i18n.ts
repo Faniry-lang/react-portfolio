@@ -2,7 +2,7 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
-const namespaces = ['navbar', 'hero', 'about', 'projects', 'contacts'] as const;
+const namespaces = ['navbar', 'hero', 'about', 'projects', 'contacts', 'github'] as const;
 const supportedLanguages = ['en', 'fr'] as const;
 
 async function loadLocaleResource(language: string, namespace: string) {

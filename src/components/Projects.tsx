@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/16/solid";
 import Carousel, { type CarouselHandle } from "./Carousel";
 import { useTranslation } from "react-i18next";
+import MyGitHubGrid from "./MyGitHubGrid";
 
 type ProjectCarouselItem = {
     id: number;
@@ -39,8 +40,24 @@ export function Projects() {
     const controls = t('controls', { returnObjects: true }) as { previous: string; next: string };
 
     return (
-        <section id="projects" className="relative flex flex-col h-[calc(100vh-2.5rem)] w-screen items-center justify-center overflow-hidden bg-slate-50 pt-10 scroll-mt-12">
-            <div className="relative h-full w-full">
+        <section id="projects" className="relative flex flex-col w-screen items-center justify-center overflow-hidden bg-slate-50 pt-10 scroll-mt-12">
+            <div className="px-16 w-full">
+                <MyGitHubGrid/>
+            </div>
+            <div className="px-16 flex flex-col gap-4 mb-10 w-full">
+                <div className="flex flex-col gap-2">
+                    <span className="font-mono text-sm uppercase tracking-[0.35em] text-green-500">
+                    {t('eyebrow')}
+                    </span>
+                    <h2 className="text-3xl font-extrabold tracking-tighter text-slate-950 md:text-4xl">
+                    {t('header')}
+                    </h2>
+                </div>
+                <p className="max-w-2xl text-base font-light leading-8 md:text-lg">
+                    {t('description')}
+                </p>
+            </div>
+            <div className="relative w-full">
                 <Carousel
                     ref={carouselRef}
                     items={projectItems}

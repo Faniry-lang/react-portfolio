@@ -6,6 +6,7 @@ SPARSE_GRID[0]  = { key: "react-light",       label: "React" };
 SPARSE_GRID[2]  = { key: "typescript",        label: "TypeScript" };
 SPARSE_GRID[3]  = { key: "git",               label: "Git" };
 SPARSE_GRID[5]  = { key: "tailwindcss-light",  label: "Tailwind CSS" };
+SPARSE_GRID[6]  = { key: "postgresql-light",  label: "PostgreSQL" };
 SPARSE_GRID[7]  = { key: "nodejs-light",       label: "Node.js" };
 SPARSE_GRID[8]  = { key: "java-light",         label: "Java" };
 SPARSE_GRID[9]  = { key: "figma-light",         label: "Figma" };
