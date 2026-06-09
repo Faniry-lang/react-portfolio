@@ -56,7 +56,7 @@ export function Projects() {
                     type="button"
                     aria-label={controls.previous}
                     onClick={() => carouselRef.current?.prev()}
-                    className="absolute left-4 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center cursor-pointer bg-white text-slate-900 transition hover:bg-slate-900 hover:text-white"
+                    className="absolute left-4 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center cursor-pointer bg-white/50 text-slate-900 transition hover:bg-slate-50 active:bg-slate-50 hover:text-white"
                 >
                     <ChevronLeftIcon className="h-6 w-6" />
                 </button>
@@ -64,7 +64,7 @@ export function Projects() {
                     type="button"
                     aria-label={controls.next}
                     onClick={() => carouselRef.current?.next()}
-                    className="absolute right-4 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center cursor-pointer bg-white text-slate-900 transition hover:bg-slate-900 hover:text-white"
+                    className="absolute right-4 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center cursor-pointer bg-white/50 text-slate-900 transition hover:bg-slate-50 active:bg-slate-50 hover:text-white"
                 >
                     <ChevronRightIcon className="h-6 w-6" />
                 </button>
