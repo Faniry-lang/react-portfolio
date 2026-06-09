@@ -76,7 +76,7 @@ export function SkillsGrid() {
       `}</style>
 
       <div className="w-full md:h-fit flex items-center justify-center p-6">
-        <div className="grid grid-cols-4 grid-rows-4 gap-6 max-w-md w-full aspect-square">
+        <div className="grid grid-cols-4 grid-rows-4 gap-6 w-full aspect-square">
           {SPARSE_GRID.map((skill, index) => (
             <div key={index} className="flex items-center justify-center w-full h-full relative">
               {skill ? (

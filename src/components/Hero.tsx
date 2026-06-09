@@ -28,7 +28,7 @@ export function Hero() {
             <div className="relative z-10 grid h-full min-h-0 grid-cols-1 md:grid-cols-2">
                 <div className="flex min-h-0 flex-col justify-center px-12 py-8 md:px-20 lg:px-24">
                     <div className="flex flex-col gap-4 mb-10 lg:mb-12">
-                        <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter text-slate-950">
+                        <h1 className="text-4xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter text-slate-950">
                             {t('name.first')}<br />
                             {t('name.last')}
                         </h1>
