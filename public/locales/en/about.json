@@ -4,18 +4,18 @@
   "sections": [
     {
       "title": "Who I am",
-      "body": "I am Faniry Ranaivoson, a software engineer passionate about building solid interfaces and useful systems. I work with a pragmatic mindset, aiming to turn real needs into clear and reliable experiences."
+      "body": "I am Faniry Ranaivoson, a passionate and hardworking software engineer, combining a constant technical curiosity with rigorous execution."
     },
     {
       "title": "My value and mindset",
-      "body": "I enjoy building applications that are clean, readable, and easy to evolve, while keeping a strong eye on detail. My preferred technologies revolve around React, Next.js, Tailwind CSS, Spring Boot, and Java, with a strong interest in well-designed architectures."
+      "body": "I like to understand how systems work, whether at the architectural or implementation level.However, I believe a great application must also be visually compelling; I pair technical performance with clean, attractive design to build software that is as engaging as it is reliable."
     },
     {
       "title": "What I am looking for",
       "body": "With first experience gained through a few professional freelance projects, I am now looking for an internship or a first role to keep learning, contribute to real products, and grow in a demanding environment."
     },
     {
-      "title": "The human bonus",
+      "title": "'From the creative side'",
       "body": "Outside of code, I enjoy illustration, creative projects, and ideas that mix technology, design, and meaning."
     }
   ],
