@@ -4,6 +4,7 @@ import { motion, useMotionValue, useTransform, type MotionValue, type Transition
 import { FiCircle, FiCode, FiFileText, FiLayers, FiLayout } from 'react-icons/fi';
 
 import './Carousel.css';
+import { useTranslation } from 'react-i18next';
 
 const DEFAULT_ITEMS = [
   {
@@ -51,6 +52,7 @@ type CarouselItemType = {
   image?: string;
   category?: string;
   period?: string;
+  link?: string,
   technologies?: string[];
   highlights?: string[];
   accentFrom?: string;
@@ -87,6 +89,7 @@ function CarouselItem({ item, index, itemWidth, round, trackItemOffset, x, trans
   const range = [-(index + 1) * trackItemOffset, -index * trackItemOffset, -(index - 1) * trackItemOffset];
   const outputRange = [90, 0, -90];
   const rotateY = useTransform(x, range, outputRange, { clamp: false });
+  const { t } = useTranslation("projects");
   const backgroundImage = item.image
     ? `linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, rgba(15, 23, 42, 0.88) 100%), url(${item.image})`
     : 'linear-gradient(180deg, rgba(15, 23, 42, 0.92) 0%, rgba(15, 23, 42, 0.92) 100%)';
@@ -122,6 +125,13 @@ function CarouselItem({ item, index, itemWidth, round, trackItemOffset, x, trans
             <span className="border border-white/20 bg-slate-950/20 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/80 backdrop-blur-sm">
               {item.period}
             </span>
+          ) : null}
+          {item.link ? (
+            <a href={item.link}>
+              <span className=" bg-green-400 hover:shadow hover:shadow-white hover:bg-green-600 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.24em] text-black backdrop-blur-sm">
+                  { t('githubLink') }
+              </span>
+            </a>
           ) : null}
           {item.icon ? <span className="ml-auto border border-white/20 bg-white/10 p-3 text-white backdrop-blur-sm">{item.icon}</span> : null}
         </div>

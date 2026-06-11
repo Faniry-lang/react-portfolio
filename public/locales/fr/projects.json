@@ -2,6 +2,7 @@
     "eyebrow": "Code",
     "header": "Projets et réalisations",
     "description": "Voici les détails de mes projets les plus récents",
+    "githubLink": "Voir dépôt Github",
   "controls": {
     "previous": "Projet précédent",
     "next": "Projet suivant"
@@ -21,7 +22,8 @@
       ],
       "image": "/assets/davinci.png",
       "accentFrom": "rgba(34, 197, 94, 0.78)",
-      "accentTo": "rgba(168, 85, 247, 0.82)"
+      "accentTo": "rgba(168, 85, 247, 0.82)",
+      "link": "https://github.com/Faniry-lang/da-vinci-assist"
     },
     {
       "id": 2,
@@ -84,7 +86,8 @@
       ],
       "image": "/assets/sotrobe.png",
       "accentFrom": "rgba(251, 191, 36, 0.75)",
-      "accentTo": "rgba(34, 197, 94, 0.72)"
+      "accentTo": "rgba(34, 197, 94, 0.72)",
+      "link": "https://github.com/Faniry-lang/sotrobe-meal-delivery"
     }
   ]
 }
