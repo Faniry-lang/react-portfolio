@@ -70,7 +70,8 @@
       ],
       "image": "/assets/haiko.png",
       "accentFrom": "rgba(245, 158, 11, 0.72)",
-      "accentTo": "rgba(168, 85, 247, 0.8)"
+      "accentTo": "rgba(168, 85, 247, 0.8)",
+      "link": "https://github.com/Faniry-lang/mihaino-backend"
     },
     {
       "id": 5,
