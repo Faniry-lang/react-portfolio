@@ -14,7 +14,7 @@
       "category": "Projet personnel",
       "period": "Avril 2026",
       "description": "Gestion d’association d’art avec un dashboard complet pour piloter les membres, les inscriptions et les annonces e-mail.",
-      "technologies": ["Next.js", "Tailwind CSS", "Spring Boot", "TinyMCE"],
+      "technologies": ["Next.js", "Tailwind CSS", "Spring Boot", "TinyMCE", "n8n"],
       "highlights": [
         "Dashboard complet pour gérer une centaine de membres.",
         "Traitement sécurisé de fichiers Excel issus de Google Forms.",
@@ -23,7 +23,7 @@
       "image": "/assets/davinci.png",
       "accentFrom": "rgba(34, 197, 94, 0.78)",
       "accentTo": "rgba(168, 85, 247, 0.82)",
-      "link": "https://github.com/Faniry-lang/da-vinci-assist"
+      "link": "https://github.com/Faniry-lang/da-vinci-assist-app"
     },
     {
       "id": 2,
